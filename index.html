@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>METRONOME TV | Gospel & God's Word</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: white;
+    }
+
+    header {
+      padding: 22px 8%;
+      background: #111c30;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    header h2 {
+      color: #f4c66a;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+      background: linear-gradient(135deg, #13233d, #253b60);
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 6vw, 55px);
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      color: #d4dbea;
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      background: #f4c66a;
+      color: #101827;
+      padding: 13px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 18px;
+    }
+
+    section {
+      padding: 45px 8%;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #17243a;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #2d3b53;
+    }
+
+    .card h3 {
+      color: #f4c66a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111c30;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>METRONOME TV</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#music">Gospel</a>
+      <a href="#word">God's Word</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Welcome to METRONOME TV</h1>
+      <p>
+        Sharing God's Word, Gospel Music,
+        Worship and Praise.
+      </p>
+      <a class="button"
+         href="https://www.youtube.com/">
+        Watch Gospel Videos
+      </a>
+    </section>
+
+    <section id="music">
+      <h2>Gospel Music & Worship</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Gospel Music</h3>
+          <p>Listen to songs that glorify God.</p>
+        </div>
+        <div class="card">
+          <h3>Worship & Praise</h3>
+          <p>Join us in worship and praise.</p>
+        </div>
+        <div class="card" id="word">
+          <h3>God's Word</h3>
+          <p>Grow in faith through the Word of God.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>METRONOME TV © 2026</p>
+    <p>Spreading the Gospel of Jesus Christ.</p>
+  </footer>
+
+</body>
+</html>
